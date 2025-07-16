@@ -1,0 +1,1312 @@
+2025-07-16 14:56:07 [main] INFO  c.i.m.proof.ProofApplication - Starting ProofApplication using Java 17.0.14 with PID 7532 (R:\LearningPath\code decode\incedo interviews\code\proof\target\classes started by krash in R:\LearningPath\code decode\incedo interviews\code\proof)
+2025-07-16 14:56:07 [main] INFO  c.i.m.proof.ProofApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 14:56:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 14:56:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 14:56:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 14:56:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 14:56:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2033 ms
+2025-07-16 14:56:10 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-07-16 14:56:10 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-16 14:56:10 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-16 14:56:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-16 14:57:07 [main] INFO  c.i.m.proof.ProofApplication - Starting ProofApplication using Java 17.0.14 with PID 15816 (R:\LearningPath\code decode\incedo interviews\code\proof\target\classes started by krash in R:\LearningPath\code decode\incedo interviews\code\proof)
+2025-07-16 14:57:07 [main] INFO  c.i.m.proof.ProofApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 14:57:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7676 (http)
+2025-07-16 14:57:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 14:57:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 14:57:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 14:57:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1845 ms
+2025-07-16 14:57:10 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-07-16 14:57:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7676 (http) with context path '/'
+2025-07-16 14:57:11 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class com.fasterxml.jackson.databind.deser.std.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 14:57:11 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 14:57:11 [main] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2025-07-16 14:57:11 [main] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-16 14:57:11 [main] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-16 14:57:11 [main] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2025-07-16 14:57:11 [main] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-1 unregistered
+2025-07-16 14:57:11 [main] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 14:57:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 14:57:11 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+2025-07-16 14:57:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-16 14:57:11 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:408)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:394)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:586)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:364)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:310)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.interview.microservices.proof.ProofApplication.main(ProofApplication.java:10)
+Caused by: org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer.<init>(ClassicKafkaConsumer.java:270)
+	at org.apache.kafka.clients.consumer.internals.ConsumerDelegateCreator.create(ConsumerDelegateCreator.java:65)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:600)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:595)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer.<init>(DefaultKafkaConsumerFactory.java:498)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createRawConsumer(DefaultKafkaConsumerFactory.java:453)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:430)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumerWithAdjustedProperties(DefaultKafkaConsumerFactory.java:407)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:374)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumer(DefaultKafkaConsumerFactory.java:335)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:877)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:388)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:520)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:264)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:520)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:436)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:382)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:405)
+	... 14 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: class com.fasterxml.jackson.databind.deser.std.StringDeserializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:401)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:435)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:420)
+	at org.apache.kafka.clients.consumer.internals.Deserializers.<init>(Deserializers.java:48)
+	at org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer.<init>(ClassicKafkaConsumer.java:182)
+	... 31 common frames omitted
+2025-07-16 15:02:44 [main] INFO  c.i.m.proof.ProofApplication - Starting ProofApplication using Java 17.0.14 with PID 5824 (R:\LearningPath\code decode\incedo interviews\code\proof\target\classes started by krash in R:\LearningPath\code decode\incedo interviews\code\proof)
+2025-07-16 15:02:44 [main] INFO  c.i.m.proof.ProofApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:02:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7676 (http)
+2025-07-16 15:02:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:02:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:02:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:02:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1822 ms
+2025-07-16 15:02:47 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-07-16 15:02:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7676 (http) with context path '/'
+2025-07-16 15:02:47 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-dlq-service-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-dlq-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class com.fasterxml.jackson.databind.deser.std.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 15:02:47 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:02:47 [main] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2025-07-16 15:02:47 [main] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-16 15:02:47 [main] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-16 15:02:47 [main] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2025-07-16 15:02:47 [main] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-dlq-service-1 unregistered
+2025-07-16 15:02:47 [main] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 15:02:47 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 15:02:47 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+2025-07-16 15:02:47 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-16 15:02:47 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:408)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:394)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:586)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:364)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:310)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.interview.microservices.proof.ProofApplication.main(ProofApplication.java:10)
+Caused by: org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer.<init>(ClassicKafkaConsumer.java:270)
+	at org.apache.kafka.clients.consumer.internals.ConsumerDelegateCreator.create(ConsumerDelegateCreator.java:65)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:600)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:595)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer.<init>(DefaultKafkaConsumerFactory.java:498)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createRawConsumer(DefaultKafkaConsumerFactory.java:453)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:430)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumerWithAdjustedProperties(DefaultKafkaConsumerFactory.java:407)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:374)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumer(DefaultKafkaConsumerFactory.java:335)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:877)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:388)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:520)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:264)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:520)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:436)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:382)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:405)
+	... 14 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: class com.fasterxml.jackson.databind.deser.std.StringDeserializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:401)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:435)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:420)
+	at org.apache.kafka.clients.consumer.internals.Deserializers.<init>(Deserializers.java:48)
+	at org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer.<init>(ClassicKafkaConsumer.java:182)
+	... 31 common frames omitted
+2025-07-16 15:03:56 [main] INFO  c.i.m.proof.ProofApplication - Starting ProofApplication using Java 17.0.14 with PID 860 (R:\LearningPath\code decode\incedo interviews\code\proof\target\classes started by krash in R:\LearningPath\code decode\incedo interviews\code\proof)
+2025-07-16 15:03:56 [main] INFO  c.i.m.proof.ProofApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:03:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7676 (http)
+2025-07-16 15:03:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:03:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:03:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:03:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1950 ms
+2025-07-16 15:03:59 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-07-16 15:03:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7676 (http) with context path '/'
+2025-07-16 15:03:59 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-dlq-service-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-dlq-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 15:04:00 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.1
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: f745dfdcee2b9851
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1752658440196
+2025-07-16 15:04:00 [main] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Subscribed to topic(s): payment-events-dlq
+2025-07-16 15:04:00 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 15:04:00 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.1
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: f745dfdcee2b9851
+2025-07-16 15:04:00 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1752658440244
+2025-07-16 15:04:00 [main] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Subscribed to topic(s): payment-events
+2025-07-16 15:04:00 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:15672]
+2025-07-16 15:04:00 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] The metadata response from the cluster reported a recoverable issue with correlation id 3 : {payment-events=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:00 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] The metadata response from the cluster reported a recoverable issue with correlation id 3 : {payment-events-dlq=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Cluster ID: NSDAxNTuQwagYAXl3O7gwA
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Cluster ID: NSDAxNTuQwagYAXl3O7gwA
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] The metadata response from the cluster reported a recoverable issue with correlation id 7 : {payment-events-dlq=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] The metadata response from the cluster reported a recoverable issue with correlation id 7 : {payment-events=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] The metadata response from the cluster reported a recoverable issue with correlation id 9 : {payment-events=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:01 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] The metadata response from the cluster reported a recoverable issue with correlation id 9 : {payment-events-dlq=LEADER_NOT_AVAILABLE}
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] (Re-)joining group
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] (Re-)joining group
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-2-74e32d21-bb53-4911-adc2-ae755a8f0ad1
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Request joining group due to: need to re-join with the given member-id: consumer-payment-dlq-service-1-fe91a807-e610-441b-8719-411570f2a17e
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] (Re-)joining group
+2025-07-16 15:04:02 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] (Re-)joining group
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Successfully joined group with generation Generation{generationId=1, memberId='consumer-payment-dlq-service-1-fe91a807-e610-441b-8719-411570f2a17e', protocol='range'}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Successfully joined group with generation Generation{generationId=1, memberId='consumer-payment-service-2-74e32d21-bb53-4911-adc2-ae755a8f0ad1', protocol='range'}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Finished assignment for group at generation 1: {consumer-payment-dlq-service-1-fe91a807-e610-441b-8719-411570f2a17e=Assignment(partitions=[payment-events-dlq-0])}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Finished assignment for group at generation 1: {consumer-payment-service-2-74e32d21-bb53-4911-adc2-ae755a8f0ad1=Assignment(partitions=[payment-events-0])}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Successfully synced group in generation Generation{generationId=1, memberId='consumer-payment-dlq-service-1-fe91a807-e610-441b-8719-411570f2a17e', protocol='range'}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Successfully synced group in generation Generation{generationId=1, memberId='consumer-payment-service-2-74e32d21-bb53-4911-adc2-ae755a8f0ad1', protocol='range'}
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Notifying assignor about the new Assignment(partitions=[payment-events-dlq-0])
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Notifying assignor about the new Assignment(partitions=[payment-events-0])
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Adding newly assigned partitions: payment-events-dlq-0
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Adding newly assigned partitions: payment-events-0
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Found no committed offset for partition payment-events-0
+2025-07-16 15:04:05 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Found no committed offset for partition payment-events-dlq-0
+2025-07-16 15:04:06 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-payment-service-2, groupId=payment-service] Resetting offset for partition payment-events-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-07-16 15:04:06 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-payment-dlq-service-1, groupId=payment-dlq-service] Resetting offset for partition payment-events-dlq-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-07-16 15:04:06 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-dlq-service: partitions assigned: [payment-events-dlq-0]
+2025-07-16 15:04:06 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions assigned: [payment-events-0]
+2025-07-16 15:04:10 [main] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+2025-07-16 15:04:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:15672]
+2025-07-16 15:04:20 [AMQP Connection 0:0:0:0:0:0:0:1:15672] WARN  c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Socket closed)
+2025-07-16 15:04:20 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1481)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:336)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-07-16 15:04:20 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:15672]
+2025-07-16 15:04:30 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:15672]
+2025-07-16 15:04:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:345)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:140)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:102)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:85)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:625)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1482)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:140)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:136)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:406)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 10 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:336)
+	... 15 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:290)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:199)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:687)
+	... 1 common frames omitted
+2025-07-16 15:04:35 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@58f50dd0: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2025-07-16 15:04:40 [main] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+2025-07-16 15:04:40 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:15672]
+2025-07-16 15:04:54 [main] INFO  c.i.m.proof.ProofApplication - Starting ProofApplication using Java 17.0.14 with PID 10004 (R:\LearningPath\code decode\incedo interviews\code\proof\target\classes started by krash in R:\LearningPath\code decode\incedo interviews\code\proof)
+2025-07-16 15:04:54 [main] INFO  c.i.m.proof.ProofApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:04:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7676 (http)
+2025-07-16 15:04:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:04:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:04:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:04:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1854 ms
+2025-07-16 15:04:58 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-07-16 15:04:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7676 (http) with context path '/'
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.1
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: f745dfdcee2b9851
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1752658498775
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Subscribed to topic(s): payment-events
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-dlq-service-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-dlq-service
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.1
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: f745dfdcee2b9851
+2025-07-16 15:04:58 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1752658498817
+2025-07-16 15:04:58 [main] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Subscribed to topic(s): payment-events-dlq
+2025-07-16 15:04:58 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-07-16 15:04:58 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#357c9bd9:0/SimpleConnection@552bee2f [delegate=amqp://guest@127.0.0.1:5672/, localPort=51082]
+2025-07-16 15:04:59 [main] INFO  c.i.m.proof.ProofApplication - Started ProofApplication in 5.367 seconds (process running for 5.838)
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Cluster ID: NSDAxNTuQwagYAXl3O7gwA
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Cluster ID: NSDAxNTuQwagYAXl3O7gwA
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] (Re-)joining group
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] (Re-)joining group
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Request joining group due to: need to re-join with the given member-id: consumer-payment-dlq-service-2-da4f9c88-7ead-4144-8455-9dbc1a68f881
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-1-8057854c-2fc1-4f9d-a0df-58066c50c9bc
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] (Re-)joining group
+2025-07-16 15:04:59 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] (Re-)joining group
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Successfully joined group with generation Generation{generationId=2, memberId='consumer-payment-dlq-service-2-da4f9c88-7ead-4144-8455-9dbc1a68f881', protocol='range'}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Successfully joined group with generation Generation{generationId=2, memberId='consumer-payment-service-1-8057854c-2fc1-4f9d-a0df-58066c50c9bc', protocol='range'}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Finished assignment for group at generation 2: {consumer-payment-service-1-8057854c-2fc1-4f9d-a0df-58066c50c9bc=Assignment(partitions=[payment-events-0])}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Finished assignment for group at generation 2: {consumer-payment-dlq-service-2-da4f9c88-7ead-4144-8455-9dbc1a68f881=Assignment(partitions=[payment-events-dlq-0])}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Successfully synced group in generation Generation{generationId=2, memberId='consumer-payment-dlq-service-2-da4f9c88-7ead-4144-8455-9dbc1a68f881', protocol='range'}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Successfully synced group in generation Generation{generationId=2, memberId='consumer-payment-service-1-8057854c-2fc1-4f9d-a0df-58066c50c9bc', protocol='range'}
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Notifying assignor about the new Assignment(partitions=[payment-events-0])
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Notifying assignor about the new Assignment(partitions=[payment-events-dlq-0])
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Adding newly assigned partitions: payment-events-dlq-0
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Adding newly assigned partitions: payment-events-0
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Found no committed offset for partition payment-events-dlq-0
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Found no committed offset for partition payment-events-0
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Resetting offset for partition payment-events-dlq-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-07-16 15:05:23 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Resetting offset for partition payment-events-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-07-16 15:05:24 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions assigned: [payment-events-0]
+2025-07-16 15:05:24 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-dlq-service: partitions assigned: [payment-events-dlq-0]
+2025-07-16 15:32:15 [http-nio-7676-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:32:15 [http-nio-7676-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:32:15 [http-nio-7676-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2025-07-16 15:32:15 [http-nio-7676-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.interview.microservices.proof.controller.PaymentController.sendRabbitPayment(com.interview.microservices.proof.model.PaymentEvent)]
+2025-07-16 15:33:46 [http-nio-7676-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-07-16 15:38:00 [http-nio-7676-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-07-16 15:39:26 [http-nio-7676-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-07-16 15:47:09 [http-nio-7676-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-07-16 15:52:41 [http-nio-7676-exec-7] INFO  c.i.m.p.service.PaymentEventProducer - Payment event sent: pay-001
+2025-07-16 15:52:44 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.r.RejectAndDontRequeueRecoverer - Retries exhausted for message (Body:'[B@3287f0c4(byte[108])' MessageProperties [headers={__TypeId__=com.interview.microservices.proof.model.PaymentEvent}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=payments.exchange, receivedRoutingKey=payment.process, deliveryTag=1, consumerTag=amq.ctag-FywdO1oD4QAgN6ST_g5h7g, consumerQueue=payment.queue])
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.interview.microservices.proof.util.PaymentEventConsumer.handlePaymentEvent(com.interview.microservices.proof.model.PaymentEvent,java.util.Map<java.lang.String, java.lang.Object>,com.rabbitmq.client.Channel,long)]
+Bean [com.interview.microservices.proof.util.PaymentEventConsumer@9772bfb]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:274)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:217)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1694)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1616)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:114)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:246)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at org.springframework.amqp.rabbit.listener.$Proxy94.invokeListener(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1595)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1540)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1518)
+	at io.micrometer.observation.Observation.observe(Observation.java:498)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1518)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1085)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1021)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1423)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.interview.microservices.proof.model.PaymentEvent] for GenericMessage [payload=byte[108], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=payments.exchange, amqp_deliveryTag=1, amqp_consumerQueue=payment.queue, amqp_redelivered=false, amqp_receivedRoutingKey=payment.process, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=67933cda-304b-cc5b-33cb-ecc45edff76d, amqp_consumerTag=amq.ctag-FywdO1oD4QAgN6ST_g5h7g, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.interview.microservices.proof.model.PaymentEvent, timestamp=1752661364259}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:151)
+	at org.springframework.amqp.rabbit.listener.adapter.AmqpMessageHandlerMethodFactory$OptionalEmptyAwarePayloadArgumentResolver.resolveArgument(AmqpMessageHandlerMethodFactory.java:99)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:75)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:270)
+	... 29 common frames omitted
+2025-07-16 15:52:44 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.l.ConditionalRejectingErrorHandler - Execution of Rabbit message listener failed.
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Retry Policy Exhausted
+	at org.springframework.amqp.rabbit.retry.RejectAndDontRequeueRecoverer.recover(RejectAndDontRequeueRecoverer.java:76)
+	at org.springframework.amqp.rabbit.config.StatelessRetryOperationsInterceptorFactoryBean.recover(StatelessRetryOperationsInterceptorFactoryBean.java:78)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$ItemRecovererCallback.recover(RetryOperationsInterceptor.java:150)
+	at org.springframework.retry.support.RetryTemplate.handleRetryExhausted(RetryTemplate.java:573)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:418)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:246)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at org.springframework.amqp.rabbit.listener.$Proxy94.invokeListener(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1595)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1540)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1518)
+	at io.micrometer.observation.Observation.observe(Observation.java:498)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1518)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1085)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1021)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1423)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1324)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: null
+	... 21 common frames omitted
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.interview.microservices.proof.util.PaymentEventConsumer.handlePaymentEvent(com.interview.microservices.proof.model.PaymentEvent,java.util.Map<java.lang.String, java.lang.Object>,com.rabbitmq.client.Channel,long)]
+Bean [com.interview.microservices.proof.util.PaymentEventConsumer@9772bfb]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:274)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:217)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1694)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1616)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:114)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357)
+	... 16 common frames omitted
+Caused by: org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [com.interview.microservices.proof.model.PaymentEvent] for GenericMessage [payload=byte[108], headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=payments.exchange, amqp_deliveryTag=1, amqp_consumerQueue=payment.queue, amqp_redelivered=false, amqp_receivedRoutingKey=payment.process, amqp_contentEncoding=UTF-8, amqp_retryCount=0, id=67933cda-304b-cc5b-33cb-ecc45edff76d, amqp_consumerTag=amq.ctag-FywdO1oD4QAgN6ST_g5h7g, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.interview.microservices.proof.model.PaymentEvent, timestamp=1752661364259}]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:151)
+	at org.springframework.amqp.rabbit.listener.adapter.AmqpMessageHandlerMethodFactory$OptionalEmptyAwarePayloadArgumentResolver.resolveArgument(AmqpMessageHandlerMethodFactory.java:99)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:75)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:270)
+	... 29 common frames omitted
+2025-07-16 15:55:45 [http-nio-7676-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.interview.microservices.proof.controller.PaymentController.sendKafkaPayment(com.interview.microservices.proof.model.PaymentEvent)]
+2025-07-16 15:56:54 [http-nio-7676-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = payment-service-dlq-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 1000
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=payment-service-dlq-producer-1] Instantiated an idempotent producer.
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.1
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: f745dfdcee2b9851
+2025-07-16 15:59:11 [http-nio-7676-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1752661751969
+2025-07-16 15:59:11 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=payment-service-dlq-producer-1] Cluster ID: NSDAxNTuQwagYAXl3O7gwA
+2025-07-16 15:59:12 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=payment-service-dlq-producer-1] ProducerId set to 0 with epoch 0
+2025-07-16 15:59:12 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent successfully: test-456
+2025-07-16 15:59:12 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Processing payment event: test-456 (attempt: 1)
+2025-07-16 15:59:12 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Processing payment: test-456 for user: user-789 amount: 200.00
+2025-07-16 15:59:12 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Payment processed successfully: test-456
+2025-07-16 15:59:12 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Payment processed successfully: test-456
+2025-07-16 16:00:08 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent successfully: test-fail-123
+2025-07-16 16:00:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Processing payment event: test-fail-123 (attempt: 1)
+2025-07-16 16:00:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Processing payment: test-fail-123 for user: user-456 amount: 100.00
+2025-07-16 16:00:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Failed to process payment: test-fail-123 (attempt: 1)
+java.lang.RuntimeException: Payment processing failed
+	at com.interview.microservices.proof.service.PaymentService.processPayment(PaymentService.java:22)
+	at com.interview.microservices.proof.util.KafkaPaymentConsumer.handlePaymentEvent(KafkaPaymentConsumer.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-16 16:00:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Payment event scheduled for retry after 2000 ms
+2025-07-16 16:00:10 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent successfully: test-fail-123
+2025-07-16 16:00:10 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Processing payment event: test-fail-123 (attempt: 2)
+2025-07-16 16:00:10 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Processing payment: test-fail-123 for user: user-456 amount: 100.00
+2025-07-16 16:00:10 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Failed to process payment: test-fail-123 (attempt: 2)
+java.lang.RuntimeException: Payment processing failed
+	at com.interview.microservices.proof.service.PaymentService.processPayment(PaymentService.java:22)
+	at com.interview.microservices.proof.util.KafkaPaymentConsumer.handlePaymentEvent(KafkaPaymentConsumer.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-16 16:00:10 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Payment event scheduled for retry after 4000 ms
+2025-07-16 16:00:14 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent successfully: test-fail-123
+2025-07-16 16:00:14 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Processing payment event: test-fail-123 (attempt: 3)
+2025-07-16 16:00:14 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Processing payment: test-fail-123 for user: user-456 amount: 100.00
+2025-07-16 16:00:14 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Failed to process payment: test-fail-123 (attempt: 3)
+java.lang.RuntimeException: Payment processing failed
+	at com.interview.microservices.proof.service.PaymentService.processPayment(PaymentService.java:22)
+	at com.interview.microservices.proof.util.KafkaPaymentConsumer.handlePaymentEvent(KafkaPaymentConsumer.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-16 16:00:14 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Payment event scheduled for retry after 8000 ms
+2025-07-16 16:00:22 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent successfully: test-fail-123
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.p.util.KafkaPaymentConsumer - Processing payment event: test-fail-123 (attempt: 4)
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  c.i.m.proof.service.PaymentService - Processing payment: test-fail-123 for user: user-456 amount: 100.00
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Failed to process payment: test-fail-123 (attempt: 4)
+java.lang.RuntimeException: Payment processing failed
+	at com.interview.microservices.proof.service.PaymentService.processPayment(PaymentService.java:22)
+	at com.interview.microservices.proof.util.KafkaPaymentConsumer.handlePaymentEvent(KafkaPaymentConsumer.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Payment event sent to DLQ after 0 attempts: test-fail-123
+2025-07-16 16:00:22 [kafka-producer-network-thread | payment-service-dlq-producer-1] INFO  c.i.m.p.service.KafkaPaymentProducer - Payment event sent to DLQ: test-fail-123 (reason: Max retries exceeded: Payment processing failed)
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] ERROR c.i.m.p.util.KafkaPaymentConsumer - Processing DLQ message: test-fail-123 (failed after -1 attempts)
+2025-07-16 16:00:22 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  c.i.m.proof.service.PaymentService - Storing failed payment for manual review: test-fail-123
+2025-07-16 16:02:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-07-16 16:02:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2025-07-16 16:02:30 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-07-16 16:02:31 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Revoke previously assigned partitions payment-events-dlq-0
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Revoke previously assigned partitions payment-events-0
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-dlq-service: partitions revoked: [payment-events-dlq-0]
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions revoked: [payment-events-0]
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Member consumer-payment-service-1-8057854c-2fc1-4f9d-a0df-58066c50c9bc sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Member consumer-payment-dlq-service-2-da4f9c88-7ead-4144-8455-9dbc1a68f881 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Request joining group due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Unsubscribed all topics or patterns and assigned partitions
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Unsubscribed all topics or patterns and assigned partitions
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-1, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-dlq-service-2, groupId=payment-dlq-service] Request joining group due to: consumer pro-actively leaving the group
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-1 unregistered
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-dlq-service-2 unregistered
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: Consumer stopped
+2025-07-16 16:02:31 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-dlq-service: Consumer stopped
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 16:02:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=payment-service-dlq-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2025-07-16 16:02:31 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for payment-service-dlq-producer-1 unregistered

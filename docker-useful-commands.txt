@@ -1,0 +1,22 @@
+docker run --rm -it <image_name_or_id> /bin/bash
+docker run --rm -it confluentinc/cp-kafka:7.4.0 /bin/bash
+
+docker exec -it kafka /bin/bash
+cd /opt/kafka/bin
+ls
+
+kafka-topics --create --topic payment-events --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+
+kafka-topics --create --topic payment-events --bootstrap-server kafka:9092
+
+kafka-topics --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 3 \
+  --topic payment-events-dlq
+
+curl -X POST http://localhost:8080/api/payments/rabbit -H "Content-Type: application/json" -d '{"paymentId":"pay-001","userId":"user-101","amount":150.75,"currency":"USD","timestamp":null,"retryCount":0}'
+
+curl -X POST http://localhost:7676/api/payments/kafka -H "Content-Type: application/json" -d '{"paymentId":"test-456","userId":"user-789","amount":200.00,"currency":"USD","timestamp":null,"retryCount":0}'
+
+curl -X POST http://localhost:8080/api/payments/kafka -H "Content-Type: application/json" -d '{"paymentId":"test-fail-123","userId":"user-456","amount":100.00,"currency":"USD","timestamp":null,"retryCount":0}'
