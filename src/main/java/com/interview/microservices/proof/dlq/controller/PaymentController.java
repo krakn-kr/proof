@@ -1,8 +1,8 @@
-package com.interview.microservices.proof.controller;
+package com.interview.microservices.proof.dlq.controller;
 
-import com.interview.microservices.proof.model.PaymentEvent;
-import com.interview.microservices.proof.service.KafkaPaymentProducer;
-import com.interview.microservices.proof.service.PaymentEventProducer;
+import com.interview.microservices.proof.dlq.model.PaymentEvent;
+import com.interview.microservices.proof.dlq.service.KafkaPaymentProducer;
+import com.interview.microservices.proof.dlq.service.PaymentEventProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

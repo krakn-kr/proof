@@ -1,0 +1,22 @@
+// ==============================================
+// 11. Test Examples
+// ==============================================
+
+/*
+// Test Commands:
+
+// 1. Get order with circuit breaker fallback
+curl -X GET http://localhost:8080/api/orders/ORD_123
+
+// 2. Get order with manual fallback
+curl -X GET http://localhost:8080/api/orders/ORD_123/manual-fallback
+
+// 3. Get order history with tiered fallback
+curl -X GET http://localhost:8080/api/orders/history/CUST_456
+
+// 4. Check circuit breaker status
+curl -X GET http://localhost:8080/actuator/circuitbreakers
+
+// 5. Check application health
+curl -X GET http://localhost:8080/actuator/health
+*/

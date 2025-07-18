@@ -1,7 +1,7 @@
-package com.interview.microservices.proof.service;
+package com.interview.microservices.proof.dlq.service;
 
-import com.interview.microservices.proof.config.RabbitMQConfig;
-import com.interview.microservices.proof.model.PaymentEvent;
+import com.interview.microservices.proof.dlq.config.RabbitMQConfig;
+import com.interview.microservices.proof.dlq.model.PaymentEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

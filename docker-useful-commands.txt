@@ -20,3 +20,26 @@ curl -X POST http://localhost:8080/api/payments/rabbit -H "Content-Type: applica
 curl -X POST http://localhost:7676/api/payments/kafka -H "Content-Type: application/json" -d '{"paymentId":"test-456","userId":"user-789","amount":200.00,"currency":"USD","timestamp":null,"retryCount":0}'
 
 curl -X POST http://localhost:8080/api/payments/kafka -H "Content-Type: application/json" -d '{"paymentId":"test-fail-123","userId":"user-456","amount":100.00,"currency":"USD","timestamp":null,"retryCount":0}'
+
+docker-compose up -d
+
+
+# redis-cli -h localhost -p 6379
+
+
+docker compose -f circuit-breaker-docker-compose.yml up -d
+
+# Run Redis with custom config
+docker run -d --name redis-configured -p 6379:6379 -v :/usr/local/etc/redis -v redis_data:/data redis:7-alpine redis-server /usr/local/etc/redis/redis.conf
+docker run -d --name redis-configured -p 6379:6379 -v ./redis.conf:/etc/redis/redis.conf -v redis_data:/data redis:7-alpine redis-server /etc/redis/redis.conf
+
+
+java -jar myapp.jar --spring.config.location=/path/to/your/app.yml
+working
+--spring.config.location="R:/LearningPath/code decode/incedo interviews/code/proof/src/main/resources/application-circuitBreaker.yml"
+
+--spring.profiles.active=circuitBreaker
+
+
+docker build -t proof-app .
+

@@ -1,9 +1,9 @@
-package com.interview.microservices.proof.util;
+package com.interview.microservices.proof.dlq.util;
 
-import com.interview.microservices.proof.config.KafkaConfig;
-import com.interview.microservices.proof.model.PaymentEvent;
-import com.interview.microservices.proof.service.KafkaPaymentProducer;
-import com.interview.microservices.proof.service.PaymentService;
+import com.interview.microservices.proof.dlq.config.KafkaConfig;
+import com.interview.microservices.proof.dlq.model.PaymentEvent;
+import com.interview.microservices.proof.dlq.service.KafkaPaymentProducer;
+import com.interview.microservices.proof.dlq.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7.0-alpine
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"
+    command: >
+      redis-server
+      --save 20 1
+      --loglevel warning
+      --requirepass abc123
+    volumes:
+      - redis-data:/data
+
+  redisinsight:
+    image: redis/redisinsight:latest
+    container_name: redisinsight
+    restart: always
+    ports:
+      - "5540:5540"
+    volumes:
+      - redisinsight-data:/data
+
+  proof-app:
+    # Use 'build: .' if you want Docker Compose to build from Dockerfile in this dir:
+    # build: .
+    image: proof-app               # Use the image name from your 'docker build -t proof-app .'
+    container_name: proof-app
+    depends_on:
+      - redis
+    environment:
+      - SPRING_REDIS_HOST=redis
+      - SPRING_REDIS_PORT=6379
+      - SPRING_REDIS_USERNAME=default
+      - SPRING_REDIS_PASSWORD=abc123
+      - SPRING_REDIS_TIMEOUT=2000ms
+      - SPRING_PROFILES_ACTIVE=circuitBreaker  # Activate desired profile
+    ports:
+      - "9898:9898"
+    restart: always
+
+volumes:
+  redis-data:
+    driver: local
+  redisinsight-data:
+    driver: local

@@ -1,4 +1,4 @@
-package com.interview.microservices.proof.config;
+package com.interview.microservices.proof.dlq.config;
 
 // ===== RABBITMQ DLQ IMPLEMENTATION =====
 

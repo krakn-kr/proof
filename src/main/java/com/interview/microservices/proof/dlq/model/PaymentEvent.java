@@ -1,4 +1,4 @@
-package com.interview.microservices.proof.model;
+package com.interview.microservices.proof.dlq.model;
 
 
 import java.math.BigDecimal;

@@ -1,8 +1,8 @@
-package com.interview.microservices.proof.config;
+package com.interview.microservices.proof.dlq.config;
 
 // ===== KAFKA DLQ IMPLEMENTATION =====
 
-import com.interview.microservices.proof.model.PaymentEvent;
+import com.interview.microservices.proof.dlq.model.PaymentEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
